@@ -1,0 +1,198 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@500&family=Lato:wght@100&family=Noto+Sans:wght@300&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    width: 100%;
+    height: auto;
+}
+.wrapper {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    background-color: slategray;
+    /* background-image: linear-gradient(to bottom, rgba(68, 68, 68, 0.52), rgba(25, 25, 25, 0.73)), url("assets/background/psufront.jpg"); */
+    background-size: cover;
+    background-attachment: fixed;
+}
+.login-container {
+    width: 600px;
+    height: 600px;
+    background-color: white;
+    outline: rgb(46, 42, 160) solid 8px;
+    margin-top: 140px;
+    border-radius: 25px;
+}
+.logo {
+    width: auto;
+    height: 250px;
+    border-radius: 5px 5px 0px 0px;
+    background-color: skyblue;
+    display: flex;
+    justify-content: center;
+}
+.logo img {
+    height: 250px;
+}
+.form {
+    font-size: 20px;
+    font-family: 'Alto', sans-serif;
+    text-align: center;
+    height: 400px;
+    width: 100%;
+    padding: 20px 10px;
+}
+.form h3 {
+    font-family: 'Kanit', sans-serif;
+}
+.login-btn {
+    background-color: rgb(20, 148, 199);
+    color: white;
+    width: auto;
+    height: 30px;
+    font-size: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 6px;
+    border: none;
+    font-family: 'Alto', sans-serif;
+    border-color: grey;
+}
+.login-btn:hover {
+    background-color: rgb(100, 100, 230);
+    color: white;
+}
+.form input {
+    width: 400px;
+    padding: 1px 5px 1px 5px;
+    height: 35px;
+    font-size: 20px;
+    border-radius: 10px;
+}
+.create {
+    background-color: rgb(25, 171, 25);
+    color: white;
+    height: 30px;
+    font-size: 15px;
+    padding: 2px 15px 2px 15px;
+    border-radius: 5px;
+    border: none;
+}
+.create:hover {
+    background-color: rgb(31, 131, 31);
+    color: white;
+}
+
+.container {
+    width: 100%;
+    height: 800px;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    background-color: antiquewhite;
+}
+nav {
+    background-color: rgb(34, 138, 179);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+ul {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-right: 100px;
+}
+li {
+    padding: 15px;
+    margin-left: 3px;
+    margin-right: 3px;
+    list-style-type: none;
+}
+ul li a {
+    font-family: 'Noto Sans', sans-serif;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    padding: 10px 10px 10px 10px;
+    width: auto;
+}
+ul li a:hover {
+    background-color: blue;
+    font-weight: bolder;
+    border-radius: 15px;
+}
+.logo-img {
+    height: 60px;
+    padding-left: 50px;
+    padding-right: 50px;
+    width: auto;
+}
+.logo-img img {
+    height: 60px;
+    width: auto;
+}
+.content {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.dash {
+    width: 90%;
+    height: auto;
+    border-radius: 10px;
+    margin-top: 25px;
+    padding: 2px 10px;
+    background-color: gainsboro;
+}
+.dash h3 {
+    font-size: 30px;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+.grid-item {
+    padding: 5px;
+    font-size: 20px;
+    text-align: center;
+    border: black solid 1px;
+}
+.grid-item > img{
+    height: 100px;
+    width: auto;
+}
+.map-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+}
+h1,h2,h3,h4,h5 {
+    font-family: 'Noto Sans', sans-serif;
+}
+.active {
+    background-color: blue;
+    font-weight: bolder;
+    border-radius: 15px;
+}
+.form-area{
+    width: 800px;
+    margin-left: 150px;
+    height: 610px;
+}
+.form-area h4 {
+    font-size: 20px;
+    margin-left: 200px;
+}
+.form-area .logout {
+    background-color: red;
+    color: white;
+}
+.form-area .logout:hover {
+    background-color: orangered;
+    color: white;
+}
